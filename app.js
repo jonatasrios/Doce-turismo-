@@ -27,7 +27,7 @@ function vera(){
                         29 a 31 – Vesperata Diamantina <br>
                         28/08 a 01/09 – Festa do Peão – Barretos<br>
                         31 – Festival Gastronômico – Tiradentes<br></p>
-                        <button onclik="voltar()">Voltar</button>`
+                        <button onclick="voltar()">Voltar</button>`
 }
 function voltar(){
     agosto.innerHTML = ""

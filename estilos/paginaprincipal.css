@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(to bottom, #393EA6, #6464D1);
+    background-image: linear-gradient(to bottom, #2e36d3, #4e4ebd);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: rgb(226, 223, 223);
@@ -15,6 +15,9 @@ body{
 #pai{
     text-align: center;
     margin: 20px;
+}
+p{
+   margin-top: 10px;
 }
 img{
     border-radius: 10px;

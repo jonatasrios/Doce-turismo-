@@ -1,0 +1,42 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom, #393EA6, #6464D1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(226, 223, 223);
+    font-size: 20pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#pai{
+    text-align: center;
+    margin: 20px;
+}
+img{
+    border-radius: 10px;
+}
+
+/*
+    header pra baixo
+*/
+a{
+    background-color: #070d86;
+    text-decoration: none;
+    color: rgb(226, 223, 223);
+}
+a:hover{
+    color: black;
+}
+article.filho{
+    background-color: #070d86;
+    text-align: center;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+
+}

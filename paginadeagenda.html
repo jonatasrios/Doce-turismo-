@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendas</title>
     <link rel="stylesheet" href="estilos/agenda.css">
+    <link rel="stylesheet" href="estilos/mediaquery/mediaquery.css">
 </head>
 <body>
     <header>
@@ -13,16 +14,22 @@
     <main>
         <section id="agosto">
                 <h2>Agenda de agosto </h2>
-                <button onclick="vera()"> Ver </button>
-                <div id="res">
+                <button onclick="agosto()" class="vol"> Ver </button>
+                <div id="resa">
 
                     
                 </div>
         </section>
         <section id="setembro">
             <h2>Agenda de setembro </h2>
-               <button onclick="vers()">Ver</button> 
+               <button onclick="setembro()" class="vol">Ver</button> 
+               <div id="ress">
 
+               </div>
+
+        </section>
+        <section id="voltar">
+            <p>Volte para nossa tela principal: <a href="index.html">Voltar</a></p>
         </section>
     </main>
     <script src="app.js"></script>

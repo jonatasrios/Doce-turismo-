@@ -27,14 +27,32 @@ section{
     margin:7px;
     line-height: 45px;
 }
+#voltar > p{
+    font-size: 30pt;
+}
+#voltar > p > a{
+    text-decoration: none;
+    color: rgb(156, 1, 1);
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+#voltar > p > a:hover{
+    text-decoration: underline;
+}
 p{
     font-size: 17pt;
 }
 button{
+    font-size: 20pt;
     width: 100px;
-    background-color: rgb(93, 93, 182);
+    height: 60px;
+    background-color: rgb(218, 201, 180);
     border: none;
     padding: 20px;
     border-radius: 10px;
     
+}
+button.vol{
+    margin-bottom: 20px;
 }

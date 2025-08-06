@@ -1,7 +1,9 @@
- let agosto = document.getElementById("res")
-function vera(){
-    agosto.innerHTML = `
-                        <h3>Agenda</h3>
+let ress = document.getElementById("ress")
+let resa = document.getElementById("resa")
+function agosto(){
+    resa.innerHTML = `
+                        <button onclick="voltar()">Voltar</button>
+                        <h3>Agosto</h3>
                         <p>03 a 10 – Porto Seguro <br>
                         08 a 10 – Campos do Jordão <br>
                         09 a 14 – Porto Seguro – <strong>ESGOTADO</strong><br>
@@ -26,9 +28,15 @@ function vera(){
                         25 a 30 – Três Fronteiras – Foz do Iguaçu <br>
                         29 a 31 – Vesperata Diamantina <br>
                         28/08 a 01/09 – Festa do Peão – Barretos<br>
-                        31 – Festival Gastronômico – Tiradentes<br></p>
-                        <button onclick="voltar()">Voltar</button>`
+                        31 – Festival Gastronômico – Tiradentes<br></p>`
+}
+function setembro(){
+    ress.innerHTML = `
+                    <button onclick="voltar()">Voltar</button>
+
+    `
 }
 function voltar(){
-    agosto.innerHTML = ""
+    resa.innerHTML = ""
+    ress.innerHTML = ""
 }
